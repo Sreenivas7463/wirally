@@ -19,17 +19,17 @@ export default function Home({posts}) {
   return (
     <>
       <Head>
-        <title>News</title>
+        <title>Wirally</title>
         <meta name="description" content="Keep up to date with the latest trends in tech" />
         <link rel="icon" href="/favicon.ico" />
         {/* You can add more metadata here, like open graph tags for social media, etc */}
       </Head>
 
       <div className="container pt-5">
-        <h1 className="text-center pb-5">News</h1>
+        <h1 className="text-center pb-5">Wirally</h1>
         <div className="row">
           <div className="col-lg-12">
-            <h2 className="pb-3">News Headings</h2>
+            <h2 className="pb-3">Wirally Posts</h2>
             {jsxPosts}
           </div>
         </div>

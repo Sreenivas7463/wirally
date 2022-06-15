@@ -10,7 +10,7 @@ function Page({ data }) {
     return (
         <>
         <Head>
-        <title>News - {data[0].title.rendered}</title>
+        <title>Wirally - {data[0].title.rendered}</title>
         <meta charset="utf-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <meta name="description" content={data[0].excerpt.rendered} />

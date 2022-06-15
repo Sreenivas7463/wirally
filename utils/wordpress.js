@@ -1,7 +1,7 @@
 const BASE_URL = "https://wirally.com/wp-json/wp/v2";
 
 export async function getPosts() {
-  const postsRes = await fetch(BASE_URL + "/posts?_embed&per_page=3&page=1");
+  const postsRes = await fetch(BASE_URL + "/posts?_embed&per_page=50&page=1");
   const posts = await postsRes.json();
   return posts;
 }

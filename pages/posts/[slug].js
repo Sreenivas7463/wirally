@@ -8,7 +8,7 @@ export default function PostPage({post}){
     return (
         <>
         <Head>
-        <title>News - {post.title.rendered}</title>
+        <title>Wirally - {post.title.rendered}</title>
         <meta charset="utf-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <meta name="description" content={post.excerpt.rendered} />
